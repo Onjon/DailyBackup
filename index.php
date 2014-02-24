@@ -41,6 +41,9 @@ for($i=1; $i<=$total; $i++){
 // Tell user that the process is completed
 echo '<script language="javascript">document.getElementById("information").innerHTML="Process completed"</script>';
 ?>
-<?php backup_tables('localhost','root','natasha143#','co_operative_society'); ?>
+<?php 
+// parametter : hostname , username , password , databasename 
+backup_tables('localhost','root','natasha143#','co_operative_society'); 
+?>
 </body>
 </html>
